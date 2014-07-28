@@ -1,6 +1,6 @@
 {
   "name": "error-doc",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A good practice to save poor nodejs error object and poor devs who care errors.",
   "main": "index.js",
   "scripts": {

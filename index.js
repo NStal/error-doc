@@ -1,4 +1,4 @@
-var createError = require("create-error")
+var createError = require("./create-error.js")
 function ErrorDocument(){
     this.Errors = {};
 }
