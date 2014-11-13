@@ -1,10 +1,10 @@
 {
   "name": "error-doc",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A good practice to save poor nodejs error object and poor devs who care errors.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -R spec --compilers .coffee:coffee-script/register ./test/mocha.coffee"
   },
   "keywords": [
     "error",
@@ -12,8 +12,7 @@
   ],
   "author": "NStal",
   "license": "BSD-2-Clause",
-  "dependencies": {
-    "create-error": "~0.3.1",
-    "lodash": "~2.4.1"
+    "dependencies": {
+        "coffee-script":"*"
   }
 }
